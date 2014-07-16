@@ -18,7 +18,8 @@ Once you have node.js and npm installed you can install the application's depend
 Once the demo app is installed, you can run the demo from the root directory. you may need to run this command as the super user.
 
 ```bash
-
+  acs publish
+  
   node server/server.js
 
 ```
