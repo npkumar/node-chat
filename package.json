@@ -1,19 +1,22 @@
 {
-  "description": "A simple chat application",
-  "version": "0.0.2",
-  "author": "General Assembly <info@generalassemb.ly>",
+  "name": "SocketImageTestApp",
+  "version": "0.1.0",
+  "framework": "none",
+  "main": "server/server.js",
+  "logfile": "SocketImageTestApp.log",
+  "description": "A simple chat application that can send images",
+  "version": "0.1.0",
   "dependencies": {
     "socket.io": "*",
     "node-static": "*",
     "socket.io-client": "*",
     "uglify-js": "*"
   },
-  "engines": {
-    "node": "*"
-  },
   "subdomain": "xyz",
   "scripts": {
     "start": "/server/server.js"
   },
-  "name": "test7"
+  "preferGlobal": false,
+  "license": "",
+  "private": true
 }
