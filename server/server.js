@@ -23,7 +23,7 @@
     });
 
     socket.on('user image', function (msg) {
-      console.log(msg);
+      console.log('user image msg');
       socket.broadcast.emit('user image', socket.nickname, msg);
     });
 
